@@ -297,9 +297,7 @@ a {
 
 /* ===== HOME PAGE STYLES ===== */
 .home-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
+  
   text-align: center;
 }
 
@@ -799,7 +797,7 @@ a {
 .carousel-container {
   width: 100%;
   max-width: 1200px;
-  margin: 3rem auto;
+  margin: 5rem auto 0;
   padding: 0 2rem;
   position: relative;
 }

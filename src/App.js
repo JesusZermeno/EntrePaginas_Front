@@ -10,6 +10,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import CartPage from './pages/CartPage';
 import AdminPage from './pages/AdminPage';
+import Footer from './components/Footer'
 import PaymentSuccess from './pages/PaymentSuccess';
 import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
@@ -31,6 +32,8 @@ function App() {
             <Route path="/admin" element={<AdminPage />} />
             <Route path="/payment-success" element={<PaymentSuccess />} />
           </Routes>
+          {/* Aquí va el footer para que aparezca en todas las páginas */}
+          <Footer />
         </Router>
       </CartProvider>
     </AuthProvider>

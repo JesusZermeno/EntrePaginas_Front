@@ -1,16 +1,15 @@
 import React from 'react';
 import Carousel from '../components/Carousel';
 import BookSlicer from '../components/BookSlicer';
-import Footer from '../components/Footer';
+import Hero from '../components/Hero';
+
 
 const Home = () => (
   <div className="home-container">
-    <h1 className="home-title">Bienvenido a la Biblioteca Virtual</h1>
-    <p className="home-desc">
-      Explora, busca y descubre libros en español. Regístrate para guardar tus favoritos y utiliza el carrito para gestionar tus compras virtuales. ¡Disfruta de una experiencia moderna y minimalista!
-    </p>
+    <Hero />
+
     <Carousel />
-    <section style={{margin: '3rem 0'}}>
+    <section style={{margin: '5rem 0'}}>
       <h2 style={{textAlign: 'center', marginBottom: '1.5rem'}}>Novedades y Recomendados</h2>
       <BookSlicer />
     </section>
@@ -24,7 +23,6 @@ const Home = () => (
         <li>Disfrutar de una experiencia moderna, rápida y minimalista.</li>
       </ul>
     </section>
-    <Footer />
   </div>
 );
 
